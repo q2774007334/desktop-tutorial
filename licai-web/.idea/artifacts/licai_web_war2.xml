@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="licai-web:war2">
+    <output-path>$PROJECT_DIR$/classes/artifacts/licai_web_war2</output-path>
+    <root id="archive" name="licai-web_war.war">
+      <element id="artifact" artifact-name="licai-web:war exploded" />
+    </root>
+  </artifact>
+</component>

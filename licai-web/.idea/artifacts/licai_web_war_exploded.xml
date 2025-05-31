@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="licai-web:war exploded">
+    <output-path>$PROJECT_DIR$/target/licai-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="licai-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.1" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.58" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.3.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="library" level="project" name="Maven: io.jsonwebtoken:jjwt:0.9.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/licai-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="licai-web/web/Web" />
+    </root>
+  </artifact>
+</component>
